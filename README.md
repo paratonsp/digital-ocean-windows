@@ -45,5 +45,4 @@ Password : Nixpoin.com123!</p>
 </li>
 </ul>
 <p><em><strong>SEGERA GANTI PASSWORD SETELAH PROSES INSTALL SELESAI!!!!!!</strong></em></p>
-<p>Reference:</p>
-<a>https://nixpoin.com/tutorial/script-install-windows-digitalocean/</a>
+<p>Reference: https://nixpoin.com/tutorial/script-install-windows-digitalocean/</p>
