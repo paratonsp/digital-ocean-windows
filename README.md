@@ -4,9 +4,9 @@
 <p>Kali ini saya memakai OS Ubuntu 20.04 dalam proses pembuatannya, dan jangan lupa untuk tidak mencentang pilihan User Data</p>
 <h2 id=masuk-mode-recovery>Masuk Mode Recovery</h2>
 <p>Setelah kita berhasil membuat sebuah VPS (droplet) selanjutnya kita ubah VPS kita ke mode recovery, caranya :</p>
-<figure class=left>
+
 ![alt text](https://raw.githubusercontent.com/paratonsp/digital-ocean-windows/main/img/digitaloceanrecovery.png)
-</figure>
+
 <ul>
 <li>Matikan VPS kita.</li>
 <li>Ubah ke recovery ke Boot from Recovery ISO.</li>
@@ -14,9 +14,9 @@
 <li>Lalu masuk ke console.<br>
 Nanti akan muncul jendela browser dengan gambar di bawah ini, jika tidak muncul seperti gambar di bawah, silahkan tekan ENTER</li>
 </ul>
-<figure class=left>
-![alt text](http://url/to/img.png)
-</figure>
+
+![alt text](https://raw.githubusercontent.com/paratonsp/digital-ocean-windows/main/img/digitaloceanrecovery2.png)
+
 <p>Kalian bisa login menggunakan Putty atau bisa juga login menggunakan console web browser dengan menekan / memilih angka 6 dan ENTER</p>
 <h2 id=install-windows>Install Windows</h2>
 <p>Kalau sudah berhasil masuk/login ke mode recovery, jalankan perintah dibawah ini untuk memulai proses install</p>
