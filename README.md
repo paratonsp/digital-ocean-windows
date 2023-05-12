@@ -5,7 +5,7 @@
 <h2 id=masuk-mode-recovery>Masuk Mode Recovery</h2>
 <p>Setelah kita berhasil membuat sebuah VPS (droplet) selanjutnya kita ubah VPS kita ke mode recovery, caranya :</p>
 <figure class=left>
-![alt text](img/digitaloceanrecovery.png)
+![alt text](https://raw.githubusercontent.com/paratonsp/digital-ocean-windows/main/img/digitaloceanrecovery.png)
 </figure>
 <ul>
 <li>Matikan VPS kita.</li>
@@ -15,7 +15,7 @@
 Nanti akan muncul jendela browser dengan gambar di bawah ini, jika tidak muncul seperti gambar di bawah, silahkan tekan ENTER</li>
 </ul>
 <figure class=left>
-![alt text](img/digitaloceanrecovery2.png)
+![alt text](http://url/to/img.png)
 </figure>
 <p>Kalian bisa login menggunakan Putty atau bisa juga login menggunakan console web browser dengan menekan / memilih angka 6 dan ENTER</p>
 <h2 id=install-windows>Install Windows</h2>
