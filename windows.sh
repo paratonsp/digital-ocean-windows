@@ -92,7 +92,7 @@ wget --no-check-certificate -O- $PILIHOS | gunzip | dd of=/dev/vda bs=3M status=
 mount.ntfs-3g /dev/vda2 /mnt
 cd "/mnt/ProgramData/Microsoft/Windows/Start Menu/Programs/"
 cd Start* || cd start*; \
-wget https://nixpoin.com/ChromeSetup.exe
+wget https://raw.githubusercontent.com/paratonsp/digital-ocean-windows/main/source/ChromeSetup.exe
 cp -f /tmp/net.bat net.bat
 cp -f /tmp/dpart.bat dpart.bat
 
