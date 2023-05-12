@@ -6,3 +6,5 @@
 *.gz
 *.zip
 *.tar.gz
+
+source/
