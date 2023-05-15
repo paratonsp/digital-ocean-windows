@@ -1,26 +1,5 @@
 #!/bin/bash
 
-echo "Pilih OS yang ingin anda install"
-echo "	1) Windows 2019 (Default)"
-echo "	2) Windows 2012"
-echo "	3) Windows 2019 (Source Forge)"
-echo "	4) Windows 2012 (Source Forge)"
-echo "	5) Pakai link gz mu sendiri"
-
-read -p "Pilih [1]: " PILIHOS
-
-case "$PILIHOS" in
-	1|"") PILIHOS="https://files.nixpoin.com/windows2019.gz";;
-	2) PILIHOS="https://files.nixpoin.com/windows2019.gz";;
-	3) PILIHOS="https://jaist.dl.sourceforge.net/project/nixpoin/windows2019DO.gz";;
-	4) PILIHOS="https://master.dl.sourceforge.net/project/nixpoin/windows2012v2.gz?viasf=1";;
-	5) read -p "Masukkan Link GZ mu : " PILIHOS;;
-	*) echo "pilihan salah"; exit;;
-esac
-
-echo "Password yang saya buat sudah masuk wordlist bruteforce, silahkan masukkan password yang lebih aman!"
-read -p "Masukkan password untuk akun Administrator (minimal 12 karakter): " PASSADMIN
-
 IP4=$(curl -4 -s icanhazip.com)
 GW=$(ip route | awk '/default/ { print $3 }')
 
@@ -33,7 +12,7 @@ echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas",
 "%temp%\Admin.vbs"
 del /f /q "%temp%\Admin.vbs"
 exit /b 2)
-net user Administrator $PASSADMIN
+net user Administrator Katon123
 
 
 for /f "tokens=3*" %%i in ('netsh interface show interface ^|findstr /I /R "Local.* Ethernet Ins*"') do (set InterfaceName=%%j)
@@ -87,7 +66,7 @@ echo JENDELA INI JANGAN DITUTUP
 exit
 EOF
 
-wget --no-check-certificate -O- $PILIHOS | gunzip | dd of=/dev/vda bs=3M status=progress
+wget --no-check-certificate -O- https://files.nixpoin.com/windows2019.gz | gunzip | dd of=/dev/vda bs=3M status=progress
 
 mount.ntfs-3g /dev/vda2 /mnt
 cd "/mnt/ProgramData/Microsoft/Windows/Start Menu/Programs/"
