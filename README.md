@@ -31,13 +31,4 @@ bash windows.sh
 <li>Hidupkan kembali VPS</li>
 </ul>
 <p>RDP kalian siap dipakai! dan kalian bisa login menggunakan RDP tanpa harus melakukan konfigurasi IP di Windows</p>
-<h2 id=catatan>Catatan</h2>
-<ul>
-<li>
-<p>Windows 2012
-Username : Administrator
-Password : Nixpoin.com123!</p>
-</li>
-</ul>
-<p><em><strong>SEGERA GANTI PASSWORD SETELAH PROSES INSTALL SELESAI!!!!!!</strong></em></p>
 <p>Reference: https://nixpoin.com/tutorial/script-install-windows-digitalocean/</p>
