@@ -65,7 +65,7 @@ echo JENDELA INI JANGAN DITUTUP
 exit
 EOF
 
-wget --no-check-certificate -O- http://drive.muavps.net/windows/Windows2012r2.gz | gunzip | dd of=/dev/vda bs=3M status=progress
+wget --no-check-certificate -O- http://drive.muavps.net/windows/Windows2012r2.gz | gunzip | dd of=/dev/vda
 
 mount.ntfs-3g /dev/vda2 /mnt
 cd "/mnt/ProgramData/Microsoft/Windows/Start Menu/Programs/"
