@@ -3,7 +3,6 @@
 IP4=$(curl -4 -s icanhazip.com)
 GW=$(ip route | awk '/default/ { print $3 }')
 
-
 cat >/tmp/net.bat<<EOF
 @ECHO OFF
 cd.>%windir%\GetAdmin
@@ -66,7 +65,7 @@ echo JENDELA INI JANGAN DITUTUP
 exit
 EOF
 
-wget --no-check-certificate -O- https://files.nixpoin.com/windows2019.gz | gunzip | dd of=/dev/vda bs=3M status=progress
+wget --no-check-certificate -O- https://master.dl.sourceforge.net/project/nixpoin/windows2012.gz?viasf=1 | gunzip | dd of=/dev/vda bs=3M status=progress
 
 mount.ntfs-3g /dev/vda2 /mnt
 cd "/mnt/ProgramData/Microsoft/Windows/Start Menu/Programs/"
