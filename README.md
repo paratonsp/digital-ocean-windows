@@ -20,7 +20,7 @@ Nanti akan muncul jendela browser dengan gambar di bawah ini, jika tidak muncul 
 <p>Kalian bisa login menggunakan Putty atau bisa juga login menggunakan console web browser dengan menekan / memilih angka 6 dan ENTER</p>
 <h2 id=install-windows>Install Windows</h2>
 <p>Kalau sudah berhasil masuk/login ke mode recovery, jalankan perintah dibawah ini untuk memulai proses install</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>wget https://raw.githubusercontent.com/paratonsp/digital-ocean-windows/main/windows.sh
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>Nixpoin.com123!
 bash windows.sh
 </code></pre></div><p>Kalian tinggal pilih OS yang ingin kalian install, kalian juga bisa menggunakan <em>mirror</em> atau kalau dirasa server tempat image yang saya sediakan kurang cepat, kalian bisa me-<em>mirror</em> file image yang saya buat di server kalian sendiri.</p>
 <p>Setelah proses install selesai, script ini akan otomatis meng-shutdown VPS kalian.</p>
@@ -33,11 +33,6 @@ bash windows.sh
 <p>RDP kalian siap dipakai! dan kalian bisa login menggunakan RDP tanpa harus melakukan konfigurasi IP di Windows</p>
 <h2 id=catatan>Catatan</h2>
 <ul>
-<li>
-<p>Windows 2019
-Username : Adminstrator
-Password : Botol123456789!</p>
-</li>
 <li>
 <p>Windows 2012
 Username : Administrator
