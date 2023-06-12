@@ -62,7 +62,7 @@ echo JENDELA INI JANGAN DITUTUP
 exit
 EOF
 
-wget --no-check-certificate -O- https://master.dl.sourceforge.net/project/nixpoin/windows2012v2.gz?viasf=1 | gunzip | dd of=/dev/vda bs=3M status=progress
+wget --no-check-certificate -O- https://master.dl.sourceforge.net/project/nixpoin/windows2012.gz?viasf=1 | gunzip | dd of=/dev/vda bs=3M status=progress
 
 mount.ntfs-3g /dev/vda2 /mnt
 cd "/mnt/ProgramData/Microsoft/Windows/Start Menu/Programs/"
